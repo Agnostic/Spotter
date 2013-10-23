@@ -10,4 +10,13 @@ You can add groups, each group has a map layer and spots/map pins, the user can 
 I create the "Parties Group", then, I add friends, after that, me or my friends can add Pins to the group layer (map), we can share photos and chat in that group.
 
 ## Screenshots
-![Main Screen](https://github.com/Agnostic/Spotter/master/screenshots/screen1.png)
+![Main Screen](https://raw.github.com/Agnostic/Spotter/master/screenshots/screen1.png)
+
+Groups
+![Group List](https://raw.github.com/Agnostic/Spotter/master/screenshots/screen2.png)
+
+Group detail
+![Group List](https://raw.github.com/Agnostic/Spotter/master/screenshots/screen3.png)
+
+Group detail (spots)
+![Group List](https://raw.github.com/Agnostic/Spotter/master/screenshots/screen4.png)
