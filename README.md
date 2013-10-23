@@ -12,11 +12,8 @@ I create the "Parties Group", then, I add friends, after that, me or my friends 
 ## Screenshots
 ![Main Screen](https://raw.github.com/Agnostic/Spotter/master/screenshots/screen1.png)
 
-Groups
 ![Group List](https://raw.github.com/Agnostic/Spotter/master/screenshots/screen2.png)
 
-Group detail
 ![Group List](https://raw.github.com/Agnostic/Spotter/master/screenshots/screen3.png)
 
-Group detail (spots)
 ![Group List](https://raw.github.com/Agnostic/Spotter/master/screenshots/screen4.png)
