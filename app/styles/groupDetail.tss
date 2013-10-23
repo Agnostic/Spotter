@@ -1,0 +1,41 @@
+"#detailWin":{
+  statusBarStyle: Ti.UI.iPhone.StatusBar.LIGHT_CONTENT,
+  translucent: false,
+  barColor: "#008FD5",
+  tintColor:"#ffffff",
+  navTintColor:"#fafafa",
+  backgroundColor: "white",
+  layout: "horizontal"
+},
+".place_info":{
+  top: 10,
+  layout: "vertical",
+  left: 7,
+  width: Ti.UI.FILL,
+  height: 80
+},
+".place_name":{
+  left:0,
+  height: Ti.UI.SIZE,
+  width: Ti.UI.FILL,
+  top: 0,
+  font: {
+    fontSize: 12
+  }
+},
+".place_description":{
+  textAlign: 'left',
+  left:0,
+  ellipsize: true,
+  width: 130,
+  height: 40,
+  top:0,
+  font: {
+    fontSize: 10
+  },
+  color: "#333"
+},
+".full_description": {
+  width: Ti.UI.FILL,
+  height: 'auto'
+}

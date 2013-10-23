@@ -1,0 +1,51 @@
+<Alloy>
+  <Window id="sideScreen">
+    <SearchBar id="search" barColor="#008FD5" showCancel="false" width="Ti.UI.FILL" left="0" height="34" top="0" borderColor="#008FD5" />
+    <ScrollView id="searchContainer">
+      <TableView id="table_groups">
+        <TableViewRow layout="horizontal" onClick="openGroup">
+          <ImageView image="http://www.smallbizio.com/wp-content/uploads/2013/08/summer_party.jpg" width="50" left="5" top="15" />
+          <View class='place_info'>
+            <Label class="place_name">Fiestas Mazatlán</Label>
+            <Label class="place_description">Todas las fiestas de Mazatlán en un solo grupo, desde cumpleaños hasta festivales.</Label>
+            <Label class='place_people'>25 personas</Label>
+          </View>
+        </TableViewRow>
+        <TableViewRow layout="horizontal" onClick="openGroup">
+          <ImageView image="http://www.mrstyleking.com/wp-content/uploads/2013/07/partygay.jpg" width="50" left="5" top="15" />
+          <View class='place_info'>
+            <Label class="place_name">Fiestas Culiacán</Label>
+            <Label class="place_description">Fiestas en Culiacán.</Label>
+            <Label class='place_people'>12 personas</Label>
+          </View>
+        </TableViewRow>
+        <TableViewRow layout="horizontal" onClick="openGroup">
+          <ImageView image="/nopicture.png" width="50" left="5" top="15" />
+          <View class='place_info'>
+            <Label class="place_name">Grupo de Amigos</Label>
+            <Label class="place_description">Aquí estamos varios amigos en el mismo grupo.</Label>
+            <Label class='place_people'>18 personas</Label>
+          </View>
+        </TableViewRow>
+        <TableViewRow layout="horizontal" onClick="openGroup">
+          <ImageView image="/nopicture.png" width="50" left="5" top="5" />
+          <View class='place_info'>
+            <Label class="place_name">Convenciones</Label>
+            <Label class="place_description">Conferencias gratuitas de cualquier tema, bla bla y más bla bla bla bla pero bien pasado de lanza</Label>
+            <Label class='place_people'>5 personas</Label>
+          </View>
+        </TableViewRow>
+      </TableView>
+    </ScrollView>
+  </Window>
+  <Window id="searchWin">
+    <ScrollView id="menuContainer" layout="horizontal" width="Ti.UI.FILL" height="Ti.UI.FILL">
+    </ScrollView>
+  </Window>
+  <NavigationWindow id="navWindow">
+    <Window id="contenido">
+      <View id="map" regionFit="true" userLocation="true" ns="Ti.Map" animate="true" width="Ti.UI.FILL" height="Ti.UI.FILL">
+      </View>
+    </Window>
+  </NavigationWindow>
+</Alloy>
